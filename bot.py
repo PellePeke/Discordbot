@@ -7,7 +7,8 @@ import threading
 # ============================================================
 # CONFIG
 # ============================================================
-BOT_TOKEN = "TOKEN"
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 # Words to detect (lowercase)
 BANNED_WORDS = [
