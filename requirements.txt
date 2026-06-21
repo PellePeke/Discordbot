@@ -1,0 +1,4 @@
+discord.py
+discord-ext-voice-recv
+SpeechRecognition
+PyNaCl
